@@ -1,0 +1,21 @@
+{
+  "name": "node_postgres",
+  "version": "1.0.0",
+  "description": "node postgres api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postgres"
+  ],
+  "author": "Peter Hanssens",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "pg": "^6.1.2",
+    "request-promise": "^4.1.1"
+  }
+}
